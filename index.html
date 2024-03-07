@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="result-div">
+        <p id="result">0</p>
+    </div>
+    <table class="teclas" cellspacing="20">
+        <!-- First Row -->
+        <tr>
+            <th class="manipulate">&#67;</th>
+            <th class="manipulate">&#xB1;</th>
+            <th class="manipulate">%</th>
+            <th class="operators">&#xF7;</th>
+        </tr>
+        
+        <!-- Second Row -->
+        <tr>
+            <td class="number">7</td>
+            <td class="number">8</td>
+            <td class="number">9</td>
+            <td class="operators">&#xD7;</td>
+        </tr>
+
+        <!-- Third Row -->
+        <tr>
+            <td class="number">4</td>
+            <td class="number">5</td>
+            <td class="number">6</td>
+            <td class="operators">&#x2D;</td>
+        </tr>
+
+        <!-- Fourth Row -->
+        <tr>
+            <td class="number">1</td>
+            <td class="number">2</td>
+            <td class="number">3</td>
+            <td class="operators">&#x2B;</td>
+        </tr>
+
+        <!-- Fifth Row -->
+        <tr>
+            <td class="number" id="first-number" colspan="2">0</td>
+            <td class="rational">.</td>
+            <td class="operators">=</td>
+        </tr>
+    </table>
+    <script src="js/script.js"></script>
+</body>
+</html>
